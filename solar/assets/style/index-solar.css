@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(../img/39632.jpg);
+    font-family: 'Shadows Into Light', cursive;
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.solar{
+    width: 735px;
+    height: 735px;
+    border-radius: 50%;
+    margin: 30px auto;
+    position: relative;
+}
+/* خورشید */
+.solar>div:nth-of-type(1){
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 41%;
+    left: 40%;
+    background-image: url(../img/خورشید.jpg);
+    background-size: cover;
+    box-shadow: 0 0 35px gold;
+    transform: translate(0%, 0%);
+    transition: 170s linear;
+
+
+}
+
+.solar>div:nth-of-type(1):hover{
+    transform:translate(0%, 0%) rotate(1440deg);
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(1){
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -14%;
+    left: -14%;
+    transform: translate(0%, 0%);
+    transition: 17s linear;
+}
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(1){
+    transform:translate(0%, 0%) rotate(1440deg);
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(1)>div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: -5%;
+    background-image: url(../img/6سیاره-عطارد.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 30px gray;
+    transform: translate(0%, 0%);
+    transition: 17s linear;
+
+
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(2){
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.658);
+    position: absolute;
+    top: -40%;
+    left: -40%;
+    transform: translate(0%, 0%);
+    transition: 19s linear;
+
+}
+.solar>div:nth-of-type(1):hover div:nth-of-type(2){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(2)>div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 96%;
+    background-image: url(../img/سیاره-زهره4.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px orangered;
+    transform: translate(0%, 0%);
+    transition: 19s linear;
+
+
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(3){
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.658);
+    position: absolute;
+    top: -60%;
+    left: -61%;
+    transform: translate(0%, 0%);
+    transition: 33s linear;
+}
+
+
+
+
+.solar>div:nth-of-type(1)>div:nth-of-type(3)>div>div{
+    /* border: 2px solid yellow; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -55%;
+    left: -60%;
+    transform: translate(0%, 0%);
+    transition: 40s;
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(3)>div>div>div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    left: 79%;
+    background-image: url(../img/ماه1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgb(144, 144, 145);
+    transform: translate(0%, 0%);
+    transition: 40s;
+}
+
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(3){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(3)>div{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: -5%;
+    background-image: url(../img/erth11.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(126, 151, 253);
+    transform: translate(0%, 0%);
+    transition: 33s linear;
+
+
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(4){
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -80%;
+    left: -87%;
+    transform: translate(0%, 0%);
+    transition: 45s linear;
+
+}
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(4){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(4)>div{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 9%;
+    background-image: url(../img/مریخ.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px orangered;
+    transform: translate(0%, 0%);
+    transition: 45s linear;
+
+}
+
+
+.solar>div:nth-of-type(1)>div:nth-of-type(5){
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -118%;
+    left: -118%;
+    transform: translate(0%, 0%);
+    transition: 73s linear;
+
+}
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(5){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(5)>div{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    background-image: url(../img/مشتری4.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px gray;
+    transform: translate(0%, 0%);
+    transition: 73s linear;
+
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(6){
+    width: 545px;
+    height: 545px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -145%;
+    left: -145%;
+    transform: translate(0%, 0%);
+    transition: 97s linear;
+
+}
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(6){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(6)>div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 95%;
+    background-image: url(../img/زحل1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px gray;
+    transform: translate(0%, 0%);
+    transition: 97s linear;
+
+
+
+}
+.solar>div:nth-of-type(1)>div:nth-of-type(7){
+    width: 625px;
+    height: 625px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -173%;
+    left: -173%;
+    transform: translate(0%, 0%);
+    transition: 213s linear;
+
+
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(7)>div{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    position: absolute;
+    top: 33%;
+    left: 95%;
+    background-image: url(../img/اورانوس3.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px gray;
+    transform: translate(0%, 0%);
+    transition: 213s linear;
+
+
+}
+.solar>div:nth-of-type(1):hover div:nth-of-type(7){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(8){
+    width: 710px;
+    height: 710px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -202%;
+    left: -203%;
+    transform: translate(0%, 0%);
+    transition: 200s linear;
+
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(8)>div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    background-image: url(../img/سیار-نپتون2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgb(145, 145, 255);
+    transform: translate(0%, 0%);
+    transition: 200s linear;
+
+    
+}
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(8){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+
+
+.solar>div:nth-of-type(1)>div:nth-of-type(9){
+    width: 780px;
+    height: 780px;
+    border-radius: 50%;
+    border: 1px solid rgba(205, 204, 204, 0.68);
+    position: absolute;
+    top: -227%;
+    left: -227%;
+    transform: translate(0%, 0%);
+    transition: 160s linear;
+}
+
+.solar>div:nth-of-type(1)>div:nth-of-type(9)>div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    left: 79%;
+    background-image: url(../img/سیاره-پلوتو1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(144, 144, 145);
+    transform: translate(0%, 0%);
+    transition: 160s linear;
+}
+
+.solar>div:nth-of-type(1):hover div:nth-of-type(9){
+    transform:translate(0%, 0%) rotate(1080deg);
+}
+
+
+
+
+.nik{
+    width: 25%;
+    height: 50vh;
+    margin-left: -350px ;
+    text-transform: capitalize;
+    
+}
+
+.nik>ul>li{
+    width: 100%;
+    height: 100%;
+}
+.nik>ul>li>a{
+    color: orangered;
+    font-size: 20px;
+    
+}
+
+.nik>ul>li>a>h1{
+    font-size: 70px;
+}
+
+.nik>ul>li>a>h1:hover{
+    color: oldlace;
+}
+
+.nik>ul>li>a>h2{
+    font-size: 33px;
+}
+
+.nik>ul>li>a>h2{
+    color: oldlace;
+}
+.nik>ul>li>a>h2:hover{
+    color: orangered;
+
+}
+.nik>ul>li>a>i{
+    color: orangered;
+    font-size: 25px;
+    margin-left: 17px;
+    transition: .5s;
+}
+
+.nik>ul>li>a>i:hover{
+    color: oldlace;
+    font-size: 25px;
+}
